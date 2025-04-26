@@ -1,4 +1,4 @@
-package com.learning.talentprogrammadvanced.Ch_21_Fragments.Homework
+package com.learning.talentprogrammadvanced.Ch_21_Fragments.Homework.view
 
 import android.annotation.SuppressLint
 import android.os.Bundle

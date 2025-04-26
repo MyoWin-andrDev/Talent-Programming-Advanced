@@ -1,11 +1,10 @@
-package com.learning.talentprogrammadvanced.Ch_21_Fragments.Homework
+package com.learning.talentprogrammadvanced.Ch_21_Fragments.Homework.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.learning.talentprogrammadvanced.R
 import com.learning.talentprogrammadvanced.databinding.FragmentThirdCh21Binding
 
 

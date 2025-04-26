@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Ch_21_Fragments.Homework.MainActivity_Ch_21">
+    tools:context=".Ch_21_Fragments.Homework.view.MainActivity_Ch_21">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fcMainActivity"

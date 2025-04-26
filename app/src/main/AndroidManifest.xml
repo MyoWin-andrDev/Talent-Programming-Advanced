@@ -19,7 +19,7 @@
             android:name=".Ch_22_Drawer_Layout.Practice.MainActivity_Ch_22"
             android:exported="true" />
         <activity
-            android:name=".Ch_21_Fragments.Homework.MainActivity_Ch_21"
+            android:name=".Ch_21_Fragments.Homework.view.MainActivity_Ch_21"
             android:exported="true" />
         <activity
             android:name=".Ch_21_Fragments.Practice.MainActivity"
