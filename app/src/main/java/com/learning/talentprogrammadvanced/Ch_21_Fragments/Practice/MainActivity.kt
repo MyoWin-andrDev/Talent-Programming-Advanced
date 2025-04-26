@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val firstFragment = FirstFragment()
         val transaction = supportFragmentManager.beginTransaction()
-        transaction.add(R.id.fcMain, firstFragment)
+        transaction.add(R.id.fcHome, firstFragment)
         transaction.commit()
     }
 }

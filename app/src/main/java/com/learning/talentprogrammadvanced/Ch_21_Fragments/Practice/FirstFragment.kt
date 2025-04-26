@@ -29,7 +29,7 @@ class FirstFragment : Fragment() {
             bundle.putString("Username", "Ezekiel")
             secondFragment.arguments = bundle
             val transaction = requireActivity().supportFragmentManager.beginTransaction()
-            transaction.replace(R.id.fcMain, secondFragment).addToBackStack("")
+            transaction.replace(R.id.fcHome, secondFragment).addToBackStack("")
             transaction.commit()
         }
         return view
