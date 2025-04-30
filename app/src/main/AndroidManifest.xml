@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TalentProgrammAdvanced"
         tools:targetApi="31">
         <activity
+            android:name=".Ch_24_ViewPager.practice.MainActivity_Ch24"
+            android:exported="true" />
+        <activity
             android:name=".Ch_23_TabLayout.Homework.activity.MainActivity_Ch23_Homework"
             android:exported="true" />
         <activity
