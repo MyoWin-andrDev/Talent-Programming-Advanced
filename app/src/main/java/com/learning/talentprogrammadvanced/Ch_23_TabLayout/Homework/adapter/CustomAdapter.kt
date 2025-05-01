@@ -2,7 +2,6 @@ package com.learning.talentprogrammadvanced.Ch_23_TabLayout.Homework.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.ListView
 import androidx.recyclerview.widget.RecyclerView
 import com.learning.talentprogrammadvanced.Ch_23_TabLayout.Homework.model.CustomList
 import com.learning.talentprogrammadvanced.databinding.ListItemTablayoutBinding

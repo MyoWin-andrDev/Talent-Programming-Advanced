@@ -14,7 +14,8 @@ class MainActivity_Ch24 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainCh24Binding.inflate(layoutInflater)
         setContentView(binding.root)
-        val tabList = hashMapOf<String, Int>(
+        val titleList = listOf("Order", "Food", "Drink")
+        val iconList = mapOf<String, Int>(
             "Order" to R.drawable.ic_list,
             "Food" to R.drawable.ic_food,
             "Drink" to R.drawable.ic_drink
@@ -31,12 +32,11 @@ class MainActivity_Ch24 : AppCompatActivity() {
             }
             override fun getItemCount(): Int = 3
         }
-        val tabKeys = tabList.keys.toList()
         binding.apply {
             TabLayoutMediator(tlMain, vpMain){ tab, position ->
-                val title  = tabKeys[position]
+                val title  = titleList[position]
                 tab.text = title
-                tabList[title]?.let { tab.setIcon(it) }
+                iconList[title]?.let { tab.setIcon(it) }
             }.attach()
         }
     }

@@ -5,19 +5,19 @@
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="MainActivity_Ch24">
+      <SelectionState runConfigName="MainActivity_Ch24_ViewPager (2)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="MainActivity_Ch24 (1)">
+      <SelectionState runConfigName="MainActivity_Ch24_ViewPager (3)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="MainActivity_Ch24 (2)">
+      <SelectionState runConfigName="MainActivity_Ch24_ViewPager (4)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="MainActivity_Ch24 (3)">
+      <SelectionState runConfigName="MainActivity_Ch24_ViewPager (5)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="MainActivity_Ch24 (4)">
+      <SelectionState runConfigName="MainActivity_Ch24_ViewPager">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

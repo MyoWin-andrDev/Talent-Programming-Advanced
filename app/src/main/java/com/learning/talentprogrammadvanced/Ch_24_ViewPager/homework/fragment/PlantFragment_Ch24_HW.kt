@@ -1,22 +1,23 @@
-package com.learning.talentprogrammadvanced.Ch_23_TabLayout.Homework.fragment
+package com.learning.talentprogrammadvanced.Ch_24_ViewPager.homework.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.View
-import com.learning.talentprogrammadvanced.Ch_23_TabLayout.Homework.adapter.CustomAdapter
-import com.learning.talentprogrammadvanced.Ch_23_TabLayout.Homework.model.CustomList
+import com.learning.talentprogrammadvanced.Ch_24_ViewPager.homework.adapter.CustomAdapter_Ch24
+import com.learning.talentprogrammadvanced.Ch_24_ViewPager.homework.model.CustomList
 import com.learning.talentprogrammadvanced.R
-import com.learning.talentprogrammadvanced.databinding.FragmentPlantsCh23Binding
+import com.learning.talentprogrammadvanced.databinding.FragmentPlantCh24HWBinding
 
-class PlantsFragment_Ch23 : Fragment(R.layout.fragment_plants__ch23) {
-    private lateinit var binding : FragmentPlantsCh23Binding
+
+class PlantFragment_Ch24_HW : Fragment(R.layout.fragment_plant__ch24__h_w) {
+    private lateinit var binding : FragmentPlantCh24HWBinding
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        binding = FragmentPlantsCh23Binding.bind(view)
+        binding = FragmentPlantCh24HWBinding.bind(view)
         val plantList = listOf(
             CustomList(
-            name = "Rose",
-            description = "The rose is a classic symbol of love and beauty. With over 300 species, they come in various colors, each with its own meaning.",
-            image = R.drawable.img_rose
+                name = "Rose",
+                description = "The rose is a classic symbol of love and beauty. With over 300 species, they come in various colors, each with its own meaning.",
+                image = R.drawable.img_rose
             ),
             CustomList(
                 name = "Sunflower",
@@ -39,7 +40,7 @@ class PlantsFragment_Ch23 : Fragment(R.layout.fragment_plants__ch23) {
                 image = R.drawable.img_orchid
             )
         )
-        binding.rvPlant.adapter = CustomAdapter(plantList)
+        binding.rvPlant.adapter = CustomAdapter_Ch24(plantList)
         super.onViewCreated(view, savedInstanceState)
     }
 }
