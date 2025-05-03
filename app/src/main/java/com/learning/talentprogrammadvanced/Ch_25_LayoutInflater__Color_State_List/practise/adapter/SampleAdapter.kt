@@ -1,4 +1,4 @@
-package com.learning.talentprogrammadvanced.Ch_25.adapter
+package com.learning.talentprogrammadvanced.Ch_25_LayoutInflater__Color_State_List.practise.adapter
 
 import android.view.View
 import android.view.ViewGroup

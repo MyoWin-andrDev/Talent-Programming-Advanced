@@ -5,7 +5,7 @@
     android:id="@+id/llMain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Ch_25.MainActivity_Ch_25"
+    tools:context=".Ch_25_LayoutInflater__Color_State_List.practise.MainActivity_Ch_25"
     android:orientation="vertical">
 
     <TextView

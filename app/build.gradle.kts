@@ -42,7 +42,7 @@ android {
 }
 
 dependencies {
-
+    val version = "2.9.0"
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -50,6 +50,10 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    //Retrofit
+    implementation ("com.google.code.gson:gson:$version")
+    implementation ("com.squareup.retrofit2:retrofit:$version")
+    implementation ("com.squareup.retrofit2:converter-gson:$version")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
