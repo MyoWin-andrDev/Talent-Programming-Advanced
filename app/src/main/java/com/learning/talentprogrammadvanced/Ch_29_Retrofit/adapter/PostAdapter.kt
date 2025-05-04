@@ -3,9 +3,11 @@ package com.learning.talentprogrammadvanced.Ch_29_Retrofit.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.learning.talentprogrammadvanced.Ch_29_Retrofit.model.PostItem
+import com.learning.talentprogrammadvanced.Ch_29_Retrofit.model.PostModelDomain
 import com.learning.talentprogrammadvanced.databinding.ListItemCh29Binding
 
-class PostAdapter(val postList : List<String>) : RecyclerView.Adapter<PostAdapter.PostViewHolder>(){
+class PostAdapter(val postList : List<PostItem>) : RecyclerView.Adapter<PostAdapter.PostViewHolder>(){
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
@@ -15,7 +17,8 @@ class PostAdapter(val postList : List<String>) : RecyclerView.Adapter<PostAdapte
         holder: PostViewHolder,
         position: Int
     ) {
-        holder.binding.tvPost.text = postList[position]
+        holder.binding.tvId.text = postList[position].id.toString()
+        holder.binding.tvPost.text = postList[position].title
     }
 
     override fun getItemCount(): Int = postList.size
