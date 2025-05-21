@@ -28,7 +28,6 @@ class MainActivity_Ch22_Homework : AppCompatActivity() {
                 setOnClickListener { dlMain.open() }
                 //Nav Item Listener
                 nvMain.setNavigationItemSelectedListener {
-                    binding.apply {
                         when(it.itemId){
                             R.id.menu_profile -> {
                                 replaceFragment(ProfileFragment_Ch_22())
@@ -43,7 +42,6 @@ class MainActivity_Ch22_Homework : AppCompatActivity() {
                                 dlMain.close()
                             }
                         }
-                    }
                     true
                 }
             }
